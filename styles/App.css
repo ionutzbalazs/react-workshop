@@ -1,0 +1,110 @@
+.App-header {
+    background-color: #222;
+    height: 120px;
+    color: white;   
+}
+
+.App-intro {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  height: 120px;
+}
+
+.App-logo-container {
+    display: inline-block;
+    height: 120px;
+}
+
+.App-logo {
+    height: 100%;
+}
+
+
+
+.Movie-quiz {
+    width: 1080px;
+}
+
+.Movie-container {
+    display: inline-block;
+    position: relative;
+    width: 211px;
+    margin:5px;
+    cursor: pointer;
+}
+
+.Movie-container-hover:hover .Movie-overlay {
+    opacity: 0.5;
+}
+
+.Movie-container-hover:hover .Movie-title {
+    opacity: 1;
+}
+
+.Movie-container-selected .Movie-overlay {
+    opacity: 0.7;
+    background-color: green;
+}
+
+.Movie-container-selected .Movie-title {
+    opacity: 1;
+}
+
+.Movie-poster {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.Movie-title {
+    color: white;
+    font-size: 20px;
+    top: 80%;
+    left: 5%;
+    position: absolute;
+    opacity: 0;
+}
+
+.Movie-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #C0C0C0;
+}
+
+.Tries-star {
+    display: inline-block;
+}
+
+.Tries-star span {
+    font-size: 250%;
+    color: #F0E68C;
+}
+
+.Question-number {
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+    color: #489ac9;
+    font-family: "pbSemibold",Helvetica,Arial,sans-serifd;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    left: 0;
+    margin: 5px;
+}
+
+.Question-text {
+    font-family: "pbSemibold",Helvetica,Arial,sans-serifd;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
